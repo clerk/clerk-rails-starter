@@ -1,0 +1,6 @@
+{
+  "name": "clerk-rails-starter",
+  "description": "Official guide on how to add authentication to Rails with Clerk.dev",
+  "repository": "https://github.com/clerkinc/clerk-rails-starter",
+  "keywords": ["rails", "clerk", "authentication"]
+}
