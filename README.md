@@ -2,6 +2,10 @@
 
 Official guide on how to add authentication to Rails with Clerk.dev
 
+![Sign up with Clerk.dev](/sign_up.gif)
+
+## Getting started in Heroku
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/clerkinc/clerk-rails-starter)
 
 ## Getting started locally
