@@ -1,13 +1,20 @@
 # Rails starter repo with Clerk
 
+<img src="./docs/rails.png" />
+
 Official guide on how to add authentication to Rails with Clerk.dev
+
+# Demo
+
+https://clerk-rails-starter.herokuapp.com/
 
 ![Sign up with Clerk.dev](/sign_up.gif)
 
-## Getting started in Heroku
+## Getting started on Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/clerkinc/clerk-rails-starter)
 
+Get your `CLERK_FRONTEND_API` and `CLERK_API_KEY` environment variables from [Clerk Dashboard](https://dashboard.clerk.dev).
 ## Getting started locally
 
 1. Fork this repo
