@@ -1,6 +1,14 @@
-# Rails starter repo with Clerk
+<p align="center">
+  <a href="https://www.clerk.dev/?utm_source=github&utm_medium=starter_repos&utm_campaign=rails_starter" target="_blank" align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./docs/clerk-logo-light.png">
+      <img src="./docs/clerk-logo-light.png" height="64">
+    </picture>
+  </a>
+  <br />
+</p>
 
-<img src="./docs/rails.png" />
+# Clerk Rails Starter
 
 Official guide on how to add authentication to Rails with Clerk.dev
 
