@@ -1,7 +1,7 @@
 module ApplicationHelper
   def clerk_script_tag
     script_url = ENV["CLERKJS_SCRIPT_URL"].presence ||
-      "https://#{ENV.fetch('CLERK_FRONTEND_API')}/npm/@clerk/clerk-js@2/dist/clerk.browser.js"
+      "https://#{ENV.fetch('CLERK_FRONTEND_API')}/npm/@clerk/clerk-js@4/dist/clerk.browser.js"
 
     javascript_include_tag(
       script_url,
