@@ -12,10 +12,6 @@
 
 Official guide on how to add authentication to Rails with Clerk.dev
 
-# Demo
-
-https://clerk-rails-starter.herokuapp.com/
-
 ![Sign up with Clerk.dev](/sign_up.gif)
 
 ## Getting started on Heroku
