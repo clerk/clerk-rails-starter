@@ -4,11 +4,11 @@
   "repository": "https://github.com/clerkinc/clerk-rails-starter",
   "keywords": ["rails", "clerk", "authentication"],
   "env": {
-    "CLERK_FRONTEND_API": {
-      "description": "The hostname of Clerk Frontend API used for authentication.",
+    "CLERK_PUBLISHABLE_KEY": {
+      "description": "The publishable key for CLERK.",
       "value": "TODO"
     },
-    "CLERK_API_KEY": {
+    "CLERK_SECRET_KEY": {
       "description": "The secret key for accessing the Clerk Backend API.",
       "value": "TODO"
     }
