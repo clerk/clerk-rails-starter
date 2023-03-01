@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
   helper_method :current_user
 
   content_security_policy do |policy|
-    policy.base_uri :self, -> { "https://#{clerk_frontend_api()}" }
+    policy.base_uri :self, -> { "https://#{clerk_frontend_api}" }
   end
 
   def current_user
