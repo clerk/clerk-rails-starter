@@ -7,6 +7,7 @@ module ApplicationHelper
       script_url,
       {
         'data-clerk-frontend-api': ENV.fetch('CLERK_FRONTEND_API'),
+        'data-clerk-publishable-key': ENV.fetch('CLERK_PUBLISHABLE_KEY'),
         crossorigin: 'anonymous',
         onload: 'startClerk()',
         defer: true,
