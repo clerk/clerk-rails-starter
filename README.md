@@ -16,8 +16,6 @@ Official guide on how to add authentication to Rails with Clerk.dev
 
 ## Getting started on Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/clerkinc/clerk-rails-starter)
-
 Get your `CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` environment variables from [Clerk Dashboard](https://dashboard.clerk.dev).
 
 ## Getting started locally
