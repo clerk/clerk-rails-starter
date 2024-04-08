@@ -5,14 +5,14 @@ module ApplicationHelper
 
   def clerk_script_tag
     script_url = ENV["CLERKJS_SCRIPT_URL"].presence ||
-      "https://#{clerk_frontend_api()}/npm/@clerk/clerk-js@5.0.0-beta-v5.20/dist/clerk.browser.js"
+      "https://#{clerk_frontend_api()}/npm/@clerk/clerk-js@4.71.2/dist/clerk.browser.js"
 
     javascript_include_tag(
       script_url,
       {
         "data-clerk-publishable-key": ENV.fetch("CLERK_PUBLISHABLE_KEY"),
         crossorigin: "anonymous",
-        onload: "startClerk()",
+        onload: "window.startClerk()",
         defer: true,
         nonce: true
       }
