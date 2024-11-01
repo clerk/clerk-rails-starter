@@ -69,3 +69,4 @@ end
 
 # Clerk Ruby SDK
 gem 'clerk-sdk-ruby', path: "/home/agis/dev/clerk/clerk-sdk-ruby", require: "clerk"
+gem 'rack-cors', require: 'rack/cors'
