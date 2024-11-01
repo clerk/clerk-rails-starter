@@ -68,4 +68,4 @@ group :test do
 end
 
 # Clerk Ruby SDK
-gem 'clerk-sdk-ruby', '~> 3.0.0', require: "clerk"
+gem 'clerk-sdk-ruby', path: "/home/agis/dev/clerk/clerk-sdk-ruby", require: "clerk"
