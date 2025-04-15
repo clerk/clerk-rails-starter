@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.3.0"
+ruby "3.3.5"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3"
@@ -68,4 +68,4 @@ group :test do
 end
 
 # Clerk Ruby SDK
-gem 'clerk-sdk-ruby', '~> 3.0.0', require: "clerk"
+gem 'clerk-sdk-ruby', '~> 4.1.0', require: "clerk"

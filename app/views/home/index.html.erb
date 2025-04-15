@@ -1,4 +1,21 @@
 <main class="main">
   <%= image_tag("clerk.png", size: 200) %>
   <a href="https://clerk.com/docs" target="_blank">Clerk documentation</a>
+
+  <% if current_user.present? %>
+    <div class="account">
+      <%= current_user.id %> - 
+      <%= current_user.email_addresses.first.email_address %>
+      <br />
+      <%= current_user.first_name %> 
+      <%= current_user.last_name %>
+    </div>
+
+    <details class="account-details">
+      <summary>Details:</summary>
+      <pre style="white-space: pre-wrap;">
+        <%= current_user.to_yaml %>
+      </pre>
+    </details>
+  <% end %>
 </main>

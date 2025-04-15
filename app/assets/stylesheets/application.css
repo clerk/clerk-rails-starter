@@ -33,3 +33,25 @@
   justify-content: center;
   align-items: center;
  }
+
+  .account {
+    border-top: 1px solid #ddd; 
+    font-family: monospace; 
+    letter-spacing: 0.1em; 
+    line-height: 2em;
+    margin-top: 50px; 
+    padding-top: 20px; 
+    text-align: center; 
+  }
+
+ .account-details {
+    border-top: 1px solid #ddd; 
+    font-family: monospace; 
+    margin-top: 50px; 
+    max-width: 95vw; 
+    letter-spacing: 0.1em; 
+    line-height: 2em;
+    text-align: left; 
+    padding-top: 20px; 
+ }
+ 

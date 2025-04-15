@@ -11,6 +11,6 @@ class ApplicationController < ActionController::Base
   end
 
   def current_user
-    @current_user ||= clerk_user
+    @current_user ||= clerk.user
   end
 end
