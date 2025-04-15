@@ -1,6 +1,6 @@
 // Configure your import map in config/importmap.rb. Read more: https://github.com/rails/importmap-rails
-import "@hotwired/turbo-rails"
-import "controllers"
+import "@hotwired/turbo-rails";
+import "controllers";
 
 // Start Clerk as soon as ClerkJS is loaded
 window.startClerk = async () => {
@@ -11,9 +11,14 @@ window.startClerk = async () => {
     await Clerk.load();
 
     function mountUserButton() {
-      if (Clerk.user && !document.getElementById('user-button').hasChildNodes()) {
-        const userButtonEl = document.getElementById('user-button');
-        Clerk.mountUserButton(userButtonEl);
+      if (
+        Clerk.user &&
+        !document.getElementById("user-button").hasChildNodes()
+      ) {
+        const userButtonEl = document.getElementById("user-button");
+        Clerk.mountUserButton(userButtonEl, {
+          userProfileMode: "modal",
+        });
       }
     }
 
@@ -21,6 +26,6 @@ window.startClerk = async () => {
 
     mountUserButton();
   } catch (err) {
-    console.error('Clerk: ', err);
+    console.error("Clerk: ", err);
   }
-}
+};
