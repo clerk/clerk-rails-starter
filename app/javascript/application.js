@@ -13,7 +13,7 @@ window.startClerk = async () => {
     function mountUserButton() {
       if (
         Clerk.user &&
-        !document.getElementById("user-button").hasChildNodes()
+        !document.getElementById("user-button")?.hasChildNodes()
       ) {
         const userButtonEl = document.getElementById("user-button");
         Clerk.mountUserButton(userButtonEl, {
