@@ -23,6 +23,10 @@ gem "turbo-rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
+# Functionality no longer included in Ruby >=3.5.0
+gem "ostruct"
+gem "fiddle"
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
